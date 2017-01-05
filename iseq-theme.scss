@@ -27,8 +27,6 @@ html, body {
   font-size: 18px; }
 
 textarea {
-
-
     font-size: 18px;
     padding: 3px;
     border-radius: 3px;
@@ -53,8 +51,6 @@ textarea:focus {
   float: left;
 }
 
-
-
 .hpo {
     border-radius: 3px;
     padding: 0 10 0 10px;
@@ -68,3 +64,23 @@ h1 {
   display: block;
   text-decoration: none;
   float: left; }
+
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  nav a:visited, a:link {
+    color: #607D8B;
+  }
+  nav a:hover {
+    color: #039be5;
+    background-color: #CFD8DC;
+  }
+  nav a.active {
+    color: #039be5;
+  }
