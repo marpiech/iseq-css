@@ -1,24 +1,9 @@
+@import 'modules/colors';
 @import 'modules/fonts';
 
-.deep-blue {
-  background: #18a3ac;
-  color: #ffffff;
-}
-
-.blue {
-  background-color : #5dbfc5;
-  color: #ffffff;
-}
-
-.blue-border {
-  border:1px solid #5dbfc5;
-
-}
-
-.light-blue{
-    background: #a3dade;
-    color: #ffffff;
-}
+/*** Color sets ***/
+.deep-blue {background: $blue-jeans; color: $paper-light;}
+.blue {background-color : $blue-jeans-light; color: $paper-light;}
 
 html, body {
   margin: 0;
@@ -64,6 +49,10 @@ h1 {
   display: block;
   text-decoration: none;
   float: left; }
+
+nav {
+  display: block;
+}
 
   nav a {
     padding: 5px 10px;

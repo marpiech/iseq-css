@@ -1,3 +1,5 @@
+/*** Colors ***/
+/*** Fonts ***/
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -43,20 +45,14 @@
   font-style: normal;
   font-weight: 400;
   src: local("Open Sans"), local("OpenSans"), url("http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff") format("woff"); }
+/*** Color sets ***/
 .deep-blue {
-  background: #18a3ac;
-  color: #ffffff; }
+  background: #5e6cdf;
+  color: #f0f1f4; }
 
 .blue {
-  background-color: #5dbfc5;
-  color: #ffffff; }
-
-.blue-border {
-  border: 1px solid #5dbfc5; }
-
-.light-blue {
-  background: #a3dade;
-  color: #ffffff; }
+  background-color: #6d80f1;
+  color: #f0f1f4; }
 
 html, body {
   margin: 0;
@@ -98,6 +94,9 @@ h1 {
   display: block;
   text-decoration: none;
   float: left; }
+
+nav {
+  display: block; }
 
 nav a {
   padding: 5px 10px;
