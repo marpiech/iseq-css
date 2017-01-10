@@ -1,9 +1,10 @@
 @import 'modules/colors';
 @import 'modules/fonts';
+@import 'modules/width';
 
 /*** Color sets ***/
-.deep-blue {background: $blue-jeans; color: $paper-light;}
-.blue {background-color : $blue-jeans-light; color: $paper-light;}
+.palette-deep-blue {background: $blue-jeans; color: $paper-light;}
+.palette-blue {background-color : $blue-jeans-light; color: $paper-light;}
 .palette-plain {background-color: $paper-light; color: $asphalt-light;}
 
 html, body {
