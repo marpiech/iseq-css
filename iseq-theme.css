@@ -54,6 +54,10 @@
   background-color: #6d80f1;
   color: #f0f1f4; }
 
+.palette-plain {
+  background-color: #f0f1f4;
+  color: #616573; }
+
 html, body {
   margin: 0;
   padding: 50;
