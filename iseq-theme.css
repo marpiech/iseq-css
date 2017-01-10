@@ -1,5 +1,5 @@
-/*** Colors ***/
-/*** Fonts ***/
+/*** imported colors ***/
+/*** imported fonts ***/
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -45,10 +45,28 @@
   font-style: normal;
   font-weight: 400;
   src: local("Open Sans"), local("OpenSans"), url("http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff") format("woff"); }
+/*** imported widths ***/
 .width-full {
   width: 100%; }
 
-/*** Color sets ***/
+/*** imported border ***/
+.border-no {
+  border: 0px; }
+
+.border-no:focus {
+  border: 0px; }
+
+/*** imported displays ***/
+.display-block {
+  display: block; }
+
+.display-inline {
+  display: inline; }
+
+.display-inline-block {
+  display: inline-block; }
+
+/*** color sets ***/
 .palette-deep-blue {
   background: #5e6cdf;
   color: #f0f1f4; }
